@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+:root {
+  --primary: #006400;
+  --bg_color: #f8f8ff;
+}
+
+/*global style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg_color);
+  color: var(--primary);
+  background-image: url("home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kategori {
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 1px 9px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: rgba(213, 234, 219, 0.6);
+}
+
+.h1 {
+  font-size: 45px;
+}
+
+.button.pkn {
+  background-color: var(--primary);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button.ipa {
+  background-color: var(--primary);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 74px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button.pjok {
+  background-color: var(--primary);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 66px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button.random {
+  background-color: var(--primary);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: seagreen;
+}
